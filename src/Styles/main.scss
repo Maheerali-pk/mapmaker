@@ -1,0 +1,53 @@
+.zi-1 {
+   z-index: 1;
+}
+.zi-2 {
+   z-index: 2;
+}
+.zi-3 {
+   z-index: 3;
+}
+.zi-4 {
+   z-index: 4;
+}
+
+$light-colors: ("green", "blue", "orange", "red");
+
+@mixin lightcolors() {
+   @each $color in $light-colors {
+      .bg-l-#{$color} {
+         background-image: url("../images/textures/light/light-"+$color+".jpg");
+      }
+   }
+}
+$dark-colors: (
+   "blue",
+   "green",
+   "lightblue",
+   "pink",
+   "purple",
+   "red",
+   "yellow",
+   "skin"
+);
+$opacities: (0.9, 0.8, 0.7, 0.6, 0.4);
+@mixin darkcolors() {
+   @each $color in $dark-colors {
+      .bg-#{$color} {
+         background-image: url("../images/textures/dark/dark-"+$color+".jpg");
+      }
+   }
+}
+.opacity-9 {
+   opacity: 0.9;
+}
+.opacity-8 {
+   opacity: 0.8;
+}
+
+body {
+   overflow: hidden;
+}
+
+@include lightcolors();
+@include darkcolors();

@@ -1,0 +1,38 @@
+#main-menu button {
+   font-family: sans-serif;
+   padding: 0.7rem 1.7rem;
+   width: fit-content;
+   font-size: 1.3rem;
+   margin: 0.5rem;
+   border-radius: 0.6rem;
+   color: #e6e6e6;
+   box-shadow: 2px 2px 2px white;
+   cursor: pointer;
+}
+
+#main-menu .btn-group {
+   display: flex;
+   flex-direction: column;
+   margin-bottom: 100px;
+   justify-content: center;
+   align-items: center;
+}
+
+#main-menu {
+   display: flex;
+   height: 100%;
+   justify-content: flex-end;
+   align-items: flex-end;
+}
+
+#main-menu img {
+   height: 100%;
+   width: 100%;
+   position: absolute;
+   top: 0;
+   left: 0;
+   z-index: -1;
+   opacity: 0.85;
+   /* opacity: 0.8; */
+   /* filter: contrast(0.7); */
+}

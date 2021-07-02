@@ -1,0 +1,45 @@
+Map => 
+    Country[]
+    BackgroundImage
+    MaxPlayers
+    Continents[]
+
+Country => 
+    Points[]
+    Neighbours[]
+
+
+Map editor toolbar
+
+1. New map
+2. Save map
+3. Load Map
+3. Upload Background BackgroundImage
+4. Border Settings
+5. Name Settings
+6. Create Break Points
+
+7. Country Form
+8. Continent Form
+
+9. Start Drawing New Country
+10. Start From Break Points
+11. Manage Break Points
+
+12. Set Countriese in Continents
+
+13. Draw Routes
+
+14. Edit Borders
+
+
+
+ //Tomarrow
+ - Create the "mouseOverOnPoint"
+ - Add code the to if(mode === "drawing"){} block in mouseDownOnPoint
+ - Create polygon completion checking algorithm 
+ 
+ - Refactor all the files is map editor context
+ - Refoctor the names of vairables line and point and coords
+
+

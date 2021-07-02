@@ -1,0 +1,53 @@
+.form {
+   background-color: rgba(255, 255, 255, 0);
+   display: block;
+   padding: 10px;
+}
+.form input {
+   padding: 3px;
+   /* background-image: url("../../../images/form-background5.jpg"); */
+   color: black;
+   background-color: rgba(255, 255, 255, 0.1);
+   border: 1px solid gray;
+   border-radius: 0px;
+}
+
+.form input:focus,
+.form select:focus {
+   background-color: #ffffff2d;
+}
+.form button {
+   background-size: contain;
+   color: black;
+   border: 1px solid gray;
+   width: fit-content;
+   align-self: center;
+   font-size: 20px;
+}
+.form input[type="color"] {
+   /* border: 0px; */
+   border-radius: 10px;
+   width: 100px;
+   margin-left: 1rem;
+}
+.form input[type="range"] {
+   margin-left: 1rem;
+}
+.form input[type="checkbox"] {
+   width: 2rem;
+   padding: 10px;
+}
+.form input[type="checkbox"] {
+   background: red;
+}
+
+.row {
+   margin: 0;
+   padding: 0;
+   align-items: center;
+}
+.input-badge {
+   box-shadow: 2px 2px 2px 2px gray;
+   font-size: large;
+   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}

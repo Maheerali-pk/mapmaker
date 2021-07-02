@@ -1,0 +1,76 @@
+.zi-1 {
+  z-index: 1;
+}
+
+.zi-2 {
+  z-index: 2;
+}
+
+.zi-3 {
+  z-index: 3;
+}
+
+.zi-4 {
+  z-index: 4;
+}
+
+.opacity-9 {
+  opacity: 0.9;
+}
+
+.opacity-8 {
+  opacity: 0.8;
+}
+
+body {
+  overflow: hidden;
+}
+
+.bg-l-green {
+  background-image: url("../images/textures/light/light-green.jpg");
+}
+
+.bg-l-blue {
+  background-image: url("../images/textures/light/light-blue.jpg");
+}
+
+.bg-l-orange {
+  background-image: url("../images/textures/light/light-orange.jpg");
+}
+
+.bg-l-red {
+  background-image: url("../images/textures/light/light-red.jpg");
+}
+
+.bg-blue {
+  background-image: url("../images/textures/dark/dark-blue.jpg");
+}
+
+.bg-green {
+  background-image: url("../images/textures/dark/dark-green.jpg");
+}
+
+.bg-lightblue {
+  background-image: url("../images/textures/dark/dark-lightblue.jpg");
+}
+
+.bg-pink {
+  background-image: url("../images/textures/dark/dark-pink.jpg");
+}
+
+.bg-purple {
+  background-image: url("../images/textures/dark/dark-purple.jpg");
+}
+
+.bg-red {
+  background-image: url("../images/textures/dark/dark-red.jpg");
+}
+
+.bg-yellow {
+  background-image: url("../images/textures/dark/dark-yellow.jpg");
+}
+
+.bg-skin {
+  background-image: url("../images/textures/dark/dark-skin.jpg");
+}
+/*# sourceMappingURL=main.css.map */

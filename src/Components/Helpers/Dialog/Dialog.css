@@ -1,0 +1,22 @@
+.dialog-close-btn:hover {
+   background: rgba(195, 0, 0, 0.5);
+   cursor: pointer;
+   transition: background 0.1s linear;
+}
+.dialog {
+   background-image: url("../../../images/textures/dialog-background.jpg.jpg");
+   background-size: auto;
+   box-shadow: 2px 2px 5px 2px black;
+   font-family: cursive;
+   min-width: max-content;
+   min-height: max-content;
+   /* filter: contrast(0.7); */
+}
+.dialog-head {
+   background: url("../../../images/textures/dialog-head.jpg");
+   font-size: 23px;
+   user-select: none;
+}
+.dialog-body {
+   min-height: max-content;
+}
